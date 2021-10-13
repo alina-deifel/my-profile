@@ -1,0 +1,169 @@
+body{
+	background-color:rgb(230, 230, 230);
+	color:rgb(50, 50, 50);
+	font-family:"Roboto", sans-serif;
+}
+
+h1, h2{
+	font-family:"Lato", sans-serif;
+}
+
+h1{
+	color:rgb(50, 50, 50);
+	font-size:34px;
+	text-shadow:0px 1px 1px #b0215e;
+}
+
+h2{
+	color:rgb(100, 100, 100);
+	font-size:24px;
+	font-weight:500;
+} 
+
+a{
+	text-decoration:none;
+	color:#6B72E1
+	font-weight:600;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	text-align: center;
+}
+
+/*Custom design with classes */
+.container{
+	width:700px;
+	margin:40px auto;
+}
+/*Responsive Design */
+@media (max-width:960px){
+  .container {
+    width:700px;
+  }
+}
+@media (max-width:720px){
+  .container {
+    width:500px;
+  }
+}
+@media (max-width:540px){
+  .container {
+    width:300px;
+  }
+}
+
+/*Card design */
+.card{
+	background:white;                         
+	padding:35px;                             
+	border-radius:4px;                        
+	box-shadow:0 10px 30px rgba(0,0,0,.1);    
+	margin:20px;
+	text-align:center;
+	align-items:center;
+}
+
+.card-picture{
+	position:relative;
+	padding:20px;
+	box-sizing:border-box;
+	display:flex;
+	align-items:flex-end;
+	text-decoration:none;
+	margin-bottom:20px;
+	background-size:cover;
+ 	background-position:center;
+ }
+
+.inner{
+  height:100%;
+  width:60%;
+  display:flex;
+  flex-direction:column;
+  justify-content:top;
+  align-items:top; 
+  background:white;
+  box-sizing:border-box;
+  padding:40px;
+  text-align:center; 
+  align-items:center;
+  border-radius:4px;
+}
+
+.inner-title{
+	font-family:"Lato", sans-serif;
+	font-size:24px; 
+	text-align:center;
+	font-weight:600;
+	color:rgb(50, 50, 50);
+	position:relative;
+	margin:0 0 8px 0;
+}
+
+.img-background{
+  background-size:cover;
+  background-position:center;
+}
+
+#card1{
+  background-image:url("images/sport-background.jpg");
+}
+
+#card2{
+  background-image:url("images/nature-background.jpg");
+ }
+
+#card3{
+  background-image:url("images/food-background.jpg") ;
+}
+
+.img-circle{
+	border-radius:50%;
+	width:160px;
+}
+
+.btn-pink{
+	background-color:#b0215e;
+	color:white;
+	padding:10px 20px;
+	border-radius:4px;
+	margin-bottom:0px;
+	margin-top:15px;
+	text-align:center;
+}
+
+.btn-pink:hover{
+	color:white;
+	background-color:black;
+}
+
+.list{
+	text-align:left;
+}
+
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding:  8px 10px;
+}
+
+.list-inline i {
+	font-size: 45px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	font-size: 45px;
+	color: #b0215e;
+}
+
+#introduction p {
+	margin-bottom: 35px;	
+}
+
+#introduction {
+	padding-bottom: 45px;
+}
